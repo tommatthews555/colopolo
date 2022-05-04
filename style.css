@@ -44,9 +44,20 @@ body {
     font-size:60px;
     padding: 1vw;
 }
+
+.font-2 {
+    font-size:30px;
+    padding: 1vw;
+}
+
+.font-3 {
+    font-size:20px;
+    padding: 1vw;
+}
+
 mark {
-    background-color: gray;
-    opacity: 0.8;
+    background-color: rgb(224, 224, 224);
+    opacity: 0.9;
 }
 
   .fixednav
