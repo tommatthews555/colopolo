@@ -14,8 +14,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100% auto;
     word-wrap: break-word;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
     @media (max-width: @iphone-screen) {
         background-attachment: scroll;
         background-size: 100% auto;
