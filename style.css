@@ -15,9 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: 10vw auto;
     word-wrap: break-word;
-    
-    background:   !important;
-}
+    }
 
 .img-1 {
     background-image: url("img1.jpg");
