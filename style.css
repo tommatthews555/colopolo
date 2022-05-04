@@ -16,7 +16,7 @@ body {
     word-wrap: break-word;
     -moz-background-size: auto 500px;
     -o-background-size: auto 500px;
-    -webkit-background-size: cover; /* safari may need this */
+    -webkit-background-size: auto 500px; /* safari may need this */
     @media (max-width: @iphone-screen) {
         background-attachment: scroll;
         background-size: auto 500px;
