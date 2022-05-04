@@ -15,6 +15,9 @@ body {
     background-repeat: no-repeat;
     background-size: 10vw auto;
     word-wrap: break-word;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     }
 
 .img-1 {
