@@ -18,6 +18,8 @@ body {
     -o-background-size: cover;
     @media (max-width: @iphone-screen) {
         background-attachment: scroll;
+        background-size: 100%;
+
     }
     }
 
