@@ -71,8 +71,3 @@ mark {
     margin-left: auto;
     margin-right: auto;
   }
-
-    html {
-    height: 100vh; /* set viewport constraint */
-    min-height: 100%; /* enforce height */
-    }
