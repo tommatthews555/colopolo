@@ -1,0 +1,73 @@
+
+body { 
+	font-family: Andale Mono,AndaleMono,monospace; 
+}
+.parallax {
+    /* Create the parallax scrolling effect */
+    z-index: auto;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:  800px 800px;
+    word-wrap: break-word;
+    -moz-background-size:   800px 800px;
+    -o-background-size:   800px 800px;
+    -webkit-background-size:  800px 800px; /* safari may need this */
+    @media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+        background-size:  800px 800px;
+        min-height: 800px;
+      }
+    }
+.sm {
+  min-height: 5px;
+}
+
+.img-1 {
+    background-image: url("img1.jpg");
+}
+.img-2 {
+    background-image: url("img2.jpg");
+}
+
+.img-3 {
+    background-image: url("img3.jpg");
+}
+
+.img-4 {
+    background-image: url("img4.jpg");
+}
+
+.img-5 {
+    background-image: url("img5.jpg");
+}
+
+.img-6 {
+    background-image: url("img6.jpg");
+}
+
+.font-1 {
+    font-size:40px;
+    padding: 1vw;
+}
+
+.font-2 {
+    font-size:20px;
+    padding: 1vw;
+}
+
+.font-3 {
+    font-size:15px;
+    padding: 1vw;
+}
+
+mark {
+    background-color: rgb(224, 224, 224);
+    opacity: 0.9;
+}
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,4 +1,89 @@
 
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Andale Mono,AndaleMono,monospace; 
+    color: #111;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("img1.jpg");
+    min-height: 100%;
+  }
+  .bg-noimg {
+    background-color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    font-size: 30px;
+  }
+  
+  .inline {
+      display: inline-block;
+  }
+  
+  .bgimg-2 {
+    background-image: url("img2.jpg");
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("img3.jpg");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    right:5%;
+    left:35%;
+    top: 50%;
+    width: 60%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .caption span.border {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+  .text-right {
+      float: right;
+  }
+
+
+
+
+/* 
 body { 
 	font-family: Andale Mono,AndaleMono,monospace; 
 }
@@ -70,4 +155,4 @@ mark {
   .center {
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
