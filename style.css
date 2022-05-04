@@ -2,18 +2,6 @@
 body { 
 	font-family: Andale Mono,AndaleMono,monospace; 
 }
-
-#bg {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-
-  /* Preserve aspect ratio */
-  min-width: 100%;
-  min-height: 100%;
-  max-width: 200%;
-  max-height: 200%;
-}
 .parallax {
     /* The image used */
 
@@ -28,6 +16,9 @@ body {
     word-wrap: break-word;
     -moz-background-size: cover;
     -o-background-size: cover;
+    @media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+    }
     }
 
 .img-1 {
