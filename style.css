@@ -12,14 +12,14 @@ body {
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: auto auto;
+    background-size: auto 800px;
     word-wrap: break-word;
-    -moz-background-size: auto auto;
-    -o-background-size: auto auto;
+    -moz-background-size: auto 800px;
+    -o-background-size: auto 800px;
     -webkit-background-size: cover; /* safari may need this */
     @media (max-width: @iphone-screen) {
         background-attachment: scroll;
-        background-size: auto auto;
+        background-size: auto 800px;
 
     }
     }
