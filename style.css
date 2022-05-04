@@ -12,13 +12,13 @@ body {
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100px auto;
     word-wrap: break-word;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
+    -moz-background-size: 100px auto;
+    -o-background-size: 100px auto;
     @media (max-width: @iphone-screen) {
         background-attachment: scroll;
-        background-size: 100% auto;
+        background-size: 100px auto;
 
     }
     }
