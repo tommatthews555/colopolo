@@ -11,10 +11,12 @@ body {
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: 100vw auto;
     word-wrap: break-word;
+    
+    background:   !important;
 }
 
 .img-1 {
