@@ -17,6 +17,7 @@ body {
     @media (max-width: @iphone-screen) {
         background-attachment: scroll;
         background-size:  800px 800px;
+        min-height: 800px;
       }
     }
 .sm {
