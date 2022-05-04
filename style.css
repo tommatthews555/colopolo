@@ -1,0 +1,111 @@
+
+body { 
+	font-family: Andale Mono,AndaleMono,monospace; 
+}
+
+.parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    min-height: 5px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    word-wrap: break-word;
+}
+
+.img-1 {
+    background-image: url("img1.jpg");
+}
+.img-2 {
+    background-image: url("img2.jpg");
+}
+
+.img-3 {
+    background-image: url("img3.jpg");
+}
+
+.img-4 {
+    background-image: url("img4.jpg");
+}
+
+.img-5 {
+    background-image: url("img5.jpg");
+}
+
+.img-6 {
+    background-image: url("img6.jpg");
+}
+
+.font-1 {
+    font-size:60px;
+    padding: 1vw;
+}
+mark {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+  .fixednav
+  {
+    position:sticky;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2);
+  }
+  .fixednavbottom
+  {
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+  }
+
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+  
+hr {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+
+  @font-face {
+    font-family: gotham;
+    src: url(font/gotham/Gotham\ Bold.otf);
+  }
+
+  .f-garlic {font-family: anda}
+  .f-gotham {font-family: "gotham"}
+  .c-white {color: #ffffff}
+  .c-red {color: #e40032}
+  .c-purple {color: #522d72}
+  .w-light{font-weight: light;}
+  .w-normal{font-weight: normal;}
+  .w-thick{font-weight: bold;}
+  .w-thicker{font-weight: 900;}
+  .bg-purple{background-color: #522d72;}
+  .bg-red{background-color: #e40032;}
+  .bg-ltgray{background-color: #e2e2e2;}
+  .bg-black{background-color: #000000;}
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
