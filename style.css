@@ -78,10 +78,9 @@ body, html {
   }
   
   .caption {
-    position: absolute;
+    position: relative;
     right:4%;
     left:35%;
-    top: 50%;
     width: 60%;
     text-align: center;
     color: rgb(255, 255, 255);
