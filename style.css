@@ -14,16 +14,14 @@ body, html {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bg-noimg, .footer {
     position: relative;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5px;
-    margin-
-  
+    padding: 5px;  
   }
   .bgimg-1 {
     background-image: url("img1.jpg");
     min-height: 100%;
+    background-position: center;
+    background-size: cover;
   }
   blockquote {
       display: inline-block;
@@ -57,29 +55,40 @@ body, html {
   
   .bgimg-2 {
     background-image: url("img2.jpg");
-    min-height: 400px;
+    background-position: center top;
+    background-size: contain;
   }
+
+
+
+
   
   .bgimg-3 {
     background-image: url("img3.jpg");
-    min-height: 400px;
+    background-size: 1000px auto;
+    background-position: center;
   }
+
+
+
+
   
   .bgimg-4 {
     background-image: url("img4.jpg");
-    min-height: 400px;
+    min-height: 100%;
+    background-position: center top;
+    background-size: cover;
   }
   
   .bgimg-5 {
     background-image: url("img5.jpg");
-    min-height: 400px;
-    background-position: top;
-    background-size:cover;
+    min-height: 100%;
+    background-position: center top;
+    background-size: cover;
   }
 
   a {
     color:#282E34;
-    text-decoration:none ;
     padding: 5px;
     
   }
@@ -117,7 +126,7 @@ body, html {
       background-attachment: scroll;
     }
     .bgimg-3, .bgimg-4 {
-      background-size: 400px 400px;
+      background-size: 600px 600px;
     }
   }
 
