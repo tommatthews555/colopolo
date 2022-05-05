@@ -94,8 +94,6 @@ body, html {
   @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
       background-attachment: scroll;
-    }
-    .bgimg-3, .bgimg-4 {
       background-size: 100px auto;
     }
   }
