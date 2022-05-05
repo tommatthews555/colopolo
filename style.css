@@ -18,6 +18,9 @@ body, html {
     background-image: url("img1.jpg");
     min-height: 100%;
   }
+  blockquote {
+      display: inline-block;
+  }
   .bg-noimg {
     background-color: white;
     text-align: center;
