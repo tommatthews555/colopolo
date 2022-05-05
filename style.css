@@ -78,13 +78,14 @@ body, html {
     color: rgb(0, 0, 0);
     padding: 18px;
     font-size: 20px;
-    letter-spacing: 5px;border-style: solid;
+    letter-spacing: 5px;
+    border-style: solid;
   }
 
   #BR-content {
     position:absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
   }
   
   
