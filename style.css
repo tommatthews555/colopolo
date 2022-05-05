@@ -4,6 +4,11 @@ body, html {
     margin: 0;
     font-family: Andale Mono,AndaleMono,monospace; 
     color: #111;
+    overflow-x:hidden;
+  }
+  body {
+    position:relative;
+
   }
   
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bg-noimg, .footer {
@@ -74,7 +79,7 @@ body, html {
   
   .caption {
     position: absolute;
-    right:5%;
+    right:4%;
     left:35%;
     top: 50%;
     width: 60%;
