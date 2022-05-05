@@ -115,8 +115,8 @@ body, html {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
       background-attachment: scroll;
     }
-    .bgimg-3 {
-      background-size: 800px 800px;
+    .bgimg-3, .bgimg-4 {
+      background-size: 600px 600px;
     }
   }
 
